@@ -13,10 +13,10 @@
     
     <indentation>
         <increase>
-            <expression></expression>
+            <expression>(if|foreach|macro|function|while|else)\s*\([^\)]*\)</expression>
         </increase>
         <decrease>
-            <expression></expression>
+            <expression>(endif|endforeach|endmacro|endfunction|endwhile|else)\s*\([^\)]*\)</expression>
         </decrease>
     </indentation>
 
@@ -24,14 +24,14 @@
         <single>
             <expression>#</expression>
         </single>
-        <!-- <multiline>
+        <multiline>
             <starts-with>
                 <expression>#[[</expression>
             </starts-with>
             <ends-with>
                 <expression>]]</expression>
             </ends-with>
-        </multiline> -->
+        </multiline>
     </comments>
 
     <brackets>

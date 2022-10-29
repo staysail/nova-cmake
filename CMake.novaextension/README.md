@@ -7,6 +7,9 @@
 This provides basic syntax coverage, including rich highlighting and folding
 support for most common constructs in CMake.
 
+Limited indenting hints are implemented for blocks like if/else/endif and
+function/endfunction.
+
 It does not support symbolication for completions or indexing (yet?)
 
 ## Future Directions

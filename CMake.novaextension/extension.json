@@ -3,7 +3,7 @@
     "name": "CMake",
     "organization": "Staysail Systems",
     "description": "CMake syntax support.",
-    "version": "1.1",
+    "version": "1.2",
     "categories": ["languages"],
     "license": "MIT",
     "repository": "https://github.com/staysail/nova-cmake",
